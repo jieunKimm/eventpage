@@ -4,87 +4,91 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:id="@+id/first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-        <ImageView
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/lotte"
-            android:onClick="lotte"/>
+            <ImageView
+                style="@style/picture"
+                android:layout_weight="1"
+                android:onClick="lotte"
+                android:src="@drawable/lotte" />
 
-        <ImageView
+            <ImageView
 
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/vip"
-            android:onClick="vip"/>
-    </LinearLayout>
+                style="@style/picture"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:onClick="vip"
+                android:src="@drawable/vip" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/first">
+        <LinearLayout
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first">
 
-        <ImageView
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/bccard"
-            android:onClick="bccard"/>
+            <ImageView
+                style="@style/picture"
+                android:layout_weight="1"
+                android:onClick="bccard"
+                android:src="@drawable/bccard" />
 
-        <ImageView
+            <ImageView
 
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/bc2"
-            android:onClick="bc2"/>
-    </LinearLayout>
+                style="@style/picture"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:onClick="bc2"
+                android:src="@drawable/bc2" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/third"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/second">
+        <LinearLayout
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second">
 
-        <ImageView
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/b1a4"
-            android:onClick="b1a4"/>
+            <ImageView
+                style="@style/picture"
+                android:layout_weight="1"
+                android:onClick="b1a4"
+                android:src="@drawable/b1a4" />
 
-        <ImageView
+            <ImageView
 
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/coun"
-            android:onClick="coun"/>
-    </LinearLayout>
+                style="@style/picture"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:onClick="coun"
+                android:src="@drawable/coun" />
+        </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/forth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/third">
+        <LinearLayout
+            android:id="@+id/forth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/third">
 
-        <ImageView
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/love"
-            android:onClick="love"/>
+            <ImageView
+                style="@style/picture"
+                android:layout_weight="1"
+                android:onClick="love"
+                android:src="@drawable/love" />
 
-        <ImageView
+            <ImageView
 
-            style="@style/picture"
-            android:layout_weight="1"
-            android:src="@drawable/bcbc"
-            android:onClick="bcbc"/>
-    </LinearLayout>
-</RelativeLayout>
+                style="@style/picture"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:onClick="bcbc"
+                android:src="@drawable/bcbc" />
+        </LinearLayout>
+    </RelativeLayout>
 </ScrollView>
