@@ -11,5 +11,6 @@
     <style name="picture">
         <item name="android:layout_width">200dp</item>
         <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
     </style>
 </resources>

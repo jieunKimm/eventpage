@@ -13,17 +13,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <ImageButton
+        <ImageView
             style="@style/picture"
             android:layout_weight="1"
             android:src="@drawable/lotte"
-            android:onClick="cgv"/>
+            android:onClick="lotte"/>
 
         <ImageView
 
             style="@style/picture"
             android:layout_weight="1"
-            android:src="@drawable/vip" />
+            android:src="@drawable/vip"
+            android:onClick="vip"/>
     </LinearLayout>
 
     <LinearLayout
@@ -35,13 +36,15 @@
         <ImageView
             style="@style/picture"
             android:layout_weight="1"
-            android:src="@drawable/bccard" />
+            android:src="@drawable/bccard"
+            android:onClick="bccard"/>
 
         <ImageView
 
             style="@style/picture"
             android:layout_weight="1"
-            android:src="@drawable/bc2" />
+            android:src="@drawable/bc2"
+            android:onClick="bc2"/>
     </LinearLayout>
 
     <LinearLayout
@@ -53,13 +56,15 @@
         <ImageView
             style="@style/picture"
             android:layout_weight="1"
-            android:src="@drawable/b1a4" />
+            android:src="@drawable/b1a4"
+            android:onClick="b1a4"/>
 
         <ImageView
 
             style="@style/picture"
             android:layout_weight="1"
-            android:src="@drawable/coun" />
+            android:src="@drawable/coun"
+            android:onClick="coun"/>
     </LinearLayout>
 
     <LinearLayout
@@ -71,13 +76,15 @@
         <ImageView
             style="@style/picture"
             android:layout_weight="1"
-            android:src="@drawable/love" />
+            android:src="@drawable/love"
+            android:onClick="love"/>
 
         <ImageView
 
             style="@style/picture"
             android:layout_weight="1"
-            android:src="@drawable/bcbc" />
+            android:src="@drawable/bcbc"
+            android:onClick="bcbc"/>
     </LinearLayout>
 </RelativeLayout>
 </ScrollView>
